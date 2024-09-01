@@ -1,0 +1,7 @@
+Flask
+pymongo
+werkzeug
+tesseract
+pillow
+pytesseract
+pdf2image

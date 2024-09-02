@@ -26,13 +26,20 @@
             background-color: #00005c;
             border-color: #00005c;
         }
+        .navbar-brand img {
+            height: 50px; /* Adjust the height according to your needs */
+            margin-right: 20px; /* Spacing between the logo and the text */
+        }
     </style>
     {% block extra_css %}{% endblock %}
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ url_for('index') }}">DocVerify India</a>
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <img src="{{ url_for('static', filename='images/truedoc.png') }}" alt="TrueDoc Logo" style="width: 150px; height: auto;">
+                TrueDoc
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -64,7 +71,7 @@
 
     <footer class="bg-dark text-white text-center py-3 mt-4">
         <div class="container">
-            <p>&copy; 2024 DocVerify India. All rights reserved.</p>
+            <p>&copy; 2024 TrueDoc. All rights reserved.</p>
         </div>
     </footer>
 

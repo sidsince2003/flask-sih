@@ -72,15 +72,25 @@ TrueDoc/
 ├── README.md                  # Project documentation
 ```
 
-# Installation
-**Prerequisites
+## Installation
+
+### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-Python 3.8 or newer installed on your local machine.
-Git installed on your machine.
-An IDE or text editor like VSCode, PyCharm, etc.
-A GitHub account and repository ready for the project.
+- Python 3.8 or newer installed on your local machine.
+- Git installed on your machine.
+- An IDE or text editor like VSCode, PyCharm, etc.
+- A GitHub account and repository ready for the project.
+
+### Clone the Repository
+
+Clone the TrueDoc repository from GitHub:
+
+```bash
+git clone https://github.com/soham2710/sih.git
+cd sih
+```
 
 #Clone the Repository
 Clone the TrueDoc repository from GitHub:

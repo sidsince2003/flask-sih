@@ -70,6 +70,7 @@ TrueDoc/
 ├── config.py                  # Configuration file for environment variables
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
+```
 
 # Installation
 **Prerequisites
@@ -132,7 +133,7 @@ Initialize your Vercel project with vercel init.
 Deploy your project using vercel --prod.
 
 
-Usage
+# Usage
 Accessing the Dashboard
 Login using your credentials (or sign up if you haven't).
 Use the navigation bar to access different sections of the portal.

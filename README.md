@@ -92,47 +92,53 @@ git clone https://github.com/soham2710/sih.git
 cd sih
 ```
 
-#Clone the Repository
+## Clone the Repository
+
 Clone the TrueDoc repository from GitHub:
 
-bash
+```bash
 git clone https://github.com/soham2710/sih.git
 cd sih
+```
+
 
 Create a Virtual Environment
 It's recommended to use a virtual environment to manage dependencies:
 
-bash
+```bash
 python3 -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
 
 # Install Dependencies
 Install the required Python packages using pip:
 
-bash
+```bash
 pip install -r requirements.txt
+```
 
-#Running the Application
+# Running the Application
 Configure Environment Variables
 Create a .env file in the root directory of your project and add the following:
 
-plaintext
+```plaintext
 FLASK_APP=app.py
 FLASK_ENV=development
 SECRET_KEY=your_secret_key
-
+```
 
 #Initialize the Database
-bash
 
+```bash
 flask db init
 flask db migrate -m "Initial migration."
 flask db upgrade
+```
 
 # Start the Flask Development Server
-bash
-
+```bash
 flask run
+```
 
 Visit http://127.0.0.1:5000 in your browser to view the application.
 
@@ -141,7 +147,6 @@ Deploying on Vercel
 Make sure you have the Vercel CLI installed.
 Initialize your Vercel project with vercel init.
 Deploy your project using vercel --prod.
-
 
 # Usage
 Accessing the Dashboard
